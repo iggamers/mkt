@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="hestia" target="1.8" />
+      <module name="hestia.content" target="1.8" />
+      <module name="hestia.content.main" target="1.8" />
+      <module name="hestia.content.test" target="1.8" />
+      <module name="hestia.core" target="1.8" />
+      <module name="hestia.core.main" target="1.8" />
+      <module name="hestia.core.test" target="1.8" />
+      <module name="hestia.engine" target="1.8" />
+      <module name="hestia.engine.main" target="1.8" />
+      <module name="hestia.engine.test" target="1.8" />
+      <module name="hestia.main" target="1.8" />
+      <module name="hestia.test" target="1.8" />
+      <module name="hestia.tools" target="1.8" />
+      <module name="hestia.tools.main" target="1.8" />
+      <module name="hestia.tools.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
