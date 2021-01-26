@@ -19,44 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/avl/AVLTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/hashtab/HashTabDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/huffmancode/HuffmanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/huffmantree/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/Josepfu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/TestStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/queue/CircleArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/MiGong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/Queue8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/RecursionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/reversepolishcal/ReversePolishMultiCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/FibonacciSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/InsertValueSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/SeqSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/MergetSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sparsearray/SparseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/ArrayStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/PolandNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/ArrBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+    <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="数据结构">
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/binarysearchnorecursion/BinarySearchNoRecur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/dac/Hanoitower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/dijkstra/DijkstraAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/dynamic/KnapsackProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/floyd/FloydAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/greedy/GreedyAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/horse/HorseChessboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/kmp/KMPAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/kmp/ViolenceMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/kruskal/KruskalCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/algorithm/prim/PrimAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +55,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jv/src/com/code/datastructures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jv/src/com/code/algorithm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\own\mkt\jv\src\com\code\algorithm" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\own\mkt\jv\src\com\code\algorithm" />
       <recent name="E:\own\mkt\jv\src\com\code\datastructures" />
     </key>
   </component>
@@ -172,8 +151,16 @@
       <option name="presentableId" value="Default" />
       <updated>1609864732837</updated>
       <workItem from="1609864735219" duration="370000" />
-      <workItem from="1611650020895" duration="1249000" />
+      <workItem from="1611650020895" duration="1933000" />
     </task>
+    <task id="LOCAL-00001" summary="数据结构">
+      <created>1611651492948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611651492948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +177,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1609865105031">
@@ -208,6 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611650236398" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611651504710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611651504710" />
     <state x="593" y="203" key="new project wizard" timestamp="1609864872578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
