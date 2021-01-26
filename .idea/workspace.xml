@@ -20,21 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mkt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jv/jv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jv/jv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/kt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kt/kt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/src/com/code/base/ctrstatement/D05Lable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/src/com/code/base/ctrstatement/D05Lable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/avl/AVLTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/binarysorttree/BinarySortTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/hashtab/HashTabDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/huffmancode/HuffmanCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/huffmantree/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/Josepfu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/linkedlist/TestStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/queue/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/queue/CircleArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/Queue8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/recursion/RecursionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/reversepolishcal/ReversePolishMultiCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/FibonacciSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/InsertValueSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/search/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/MergetSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sparsearray/SparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/ArrBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/tree/threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +66,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <executables />
   </component>
   <component name="ProjectId" id="1mer7kTCActITsj7grYHi6rrPyg" />
   <component name="ProjectViewState">
@@ -54,19 +80,40 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jv/src/com/code/datastructures" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.D004CheckNullKt">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\own\mkt\jv\src\com\code\datastructures" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestStack">
+    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.linkedlist.TestStack" />
+      <module name="jv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.datastructures.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,9 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D004CheckNullKt" />
-        <item itemvalue="Application.D002VariableKt" />
-        <item itemvalue="Application.D001HelloWorldKt" />
+        <item itemvalue="Application.TestStack" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609864732837</updated>
       <workItem from="1609864735219" duration="370000" />
+      <workItem from="1611650020895" duration="1249000" />
     </task>
     <servers />
   </component>
@@ -143,16 +189,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1609865105031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609865105031" />
+    <state x="654" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611650927068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611650927068" />
     <state x="634" y="260" key="FileChooserDialogImpl" timestamp="1609865103465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609865103465" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1611650236398">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611650236398" />
     <state x="593" y="203" key="new project wizard" timestamp="1609864872578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
