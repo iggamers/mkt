@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="kotlin-&gt;array stack">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/queue/ArrayQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/queue/CircleArrayQueue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kt/src/com/code/datastructures/stack/StackArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/stack/StackArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kt/src/com/code/datastructures/stack/StackArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/stack/ArrayStack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="KotlinMultiplatform">
     <executables />
@@ -66,7 +70,7 @@
       <recent name="E:\own\mkt\jv\src\com\code\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StackArrayKt">
+  <component name="RunManager" selected="Kotlin.CircleArrayQueueKt">
     <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.code.datastructures.linkedlist.TestStack" />
       <module name="jv" />
@@ -93,27 +97,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D002VariableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.base.method.D002VariableKt" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.queue.ArrayQueueKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D004CheckNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.base.D004CheckNullKt" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.stack.ArrayStackKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleArrayQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.queue.CircleArrayQueueKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,22 +149,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.stack.StackArrayKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.StackArrayKt" />
+        <item itemvalue="Kotlin.CircleArrayQueueKt" />
+        <item itemvalue="Kotlin.ArrayQueueKt" />
+        <item itemvalue="Kotlin.ArrayStackKt" />
         <item itemvalue="Kotlin.D01JFrameKt" />
         <item itemvalue="Application.TestStack" />
       </list>
@@ -162,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609864732837</updated>
       <workItem from="1609864735219" duration="370000" />
-      <workItem from="1611650020895" duration="59625000" />
+      <workItem from="1611650020895" duration="65565000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1611651492948</created>
@@ -185,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611656292741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kotlin-&gt;array stack">
+      <created>1611710081489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611710081489</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,38 +235,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609865103465" />
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom" timestamp="1611709811550">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1611715998684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811550" />
-    <state width="1877" height="177" key="GridCell.Tab.0.center" timestamp="1611709811550">
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715998684" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1611715998684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811550" />
-    <state width="1877" height="177" key="GridCell.Tab.0.left" timestamp="1611709811549">
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715998684" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1611715998684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811549" />
-    <state width="1877" height="177" key="GridCell.Tab.0.right" timestamp="1611709811550">
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715998684" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1611715998684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="177" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811550" />
-    <state width="1877" height="481" key="GridCell.Tab.1.bottom" timestamp="1611709811485">
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715998684" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1611715969268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="481" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811485" />
-    <state width="1877" height="481" key="GridCell.Tab.1.center" timestamp="1611709811485">
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715969268" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1611715969268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="481" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811485" />
-    <state width="1877" height="481" key="GridCell.Tab.1.left" timestamp="1611709811485">
+    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715969268" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1611715969268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="481" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811485" />
-    <state width="1877" height="481" key="GridCell.Tab.1.right" timestamp="1611709811485">
+    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715969268" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1611715969268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="481" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611709811485" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611715969268" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1611650236398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,13 +275,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611656303735" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611710142620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611710142620" />
+    <state x="502" y="249" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1611712518260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="249" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611712518260" />
+    <state x="1938" y="-1" width="926" height="929" maximized="true" key="dock-window-1" timestamp="1611714328796">
+      <screen x="1920" y="-1" width="1920" height="1040" />
+    </state>
+    <state x="1938" y="-1" width="926" height="929" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611714328796" />
+    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1611714687207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611714687207" />
     <state x="593" y="203" key="new project wizard" timestamp="1609864872578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="593" y="203" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609864872578" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611655599336">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611714689375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611655599336" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611714689375" />
   </component>
 </project>
