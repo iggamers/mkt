@@ -1,6 +1,5 @@
 package com.code.datastructures.sort
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.IntArrayData
 import kotlin.system.measureTimeMillis
 
 fun main(args: Array<String>) {
@@ -24,20 +23,20 @@ fun main(args: Array<String>) {
 	// bubbleSortEvolutionProcess()
 }
 
-fun bubbleSort(array: IntArray ):IntArray{
+fun bubbleSort(arr: IntArray ):IntArray{
 	// 冒泡排序的时间复杂度 O(n^2)
 	// 临时变量
 	var tmp:Int = 0
 	// 标识变量，表示是否进行过交换
 	var flag:Boolean = false
-	for(i in 0 until array.size-1){
-		for(j in 0 until  array.size -1 -i){
+	for(i in 0 until arr.size-1){
+		for(j in 0 until  arr.size -1 -i){
 			// 如果前面的数比后面的数大，则交换
-			if(array[j] > array[j+1]){
+			if(arr[j] > arr[j+1]){
 				flag = true
-				tmp = array[j]
-				array[j]= array[j+1]
-				array[j+1] =tmp
+				tmp = arr[j]
+				arr[j]= arr[j+1]
+				arr[j+1] =tmp
 			}
 		}
 		if(!flag){
@@ -49,10 +48,10 @@ fun bubbleSort(array: IntArray ):IntArray{
 		}
 	}
 	
-	return  array
+	return  arr
 }
 
-// 为了容量理解，我们把冒泡排序的演变过程，给大家展示
+// 为了容易理解，我们把冒泡排序的演变过程，给大家展示
 fun bubbleSortEvolutionProcess(){
 	var arr = arrayOf(3,9,2,10,0)
 	

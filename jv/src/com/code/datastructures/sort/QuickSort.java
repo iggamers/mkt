@@ -35,7 +35,7 @@ public class QuickSort {
 		int r = right; //右下标
 		//pivot 中轴值
 		int pivot = arr[(left + right) / 2];
-		int temp = 0; //临时变量，作为交换时使用
+		int tmp = 0; //临时变量，作为交换时使用
 		//while循环的目的是让比pivot 值小放到左边
 		//比pivot 值大放到右边
 		while( l < r) {
@@ -54,9 +54,9 @@ public class QuickSort {
 			}
 
 			//交换
-			temp = arr[l];
+			tmp = arr[l];
 			arr[l] = arr[r];
-			arr[r] = temp;
+			arr[r] = tmp;
 
 			//如果交换完后，发现这个arr[l] == pivot值 相等 r--， 前移
 			if(arr[l] == pivot) {
@@ -81,7 +81,5 @@ public class QuickSort {
 		if(right > l) {
 			quickSort(arr, l, right);
 		}
-
-
 	}
 }

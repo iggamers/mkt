@@ -1,15 +1,14 @@
 package com.code.datastructures.sort;
 
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 
-public class MergetSort {
+public class MergeSort {
 
 	public static void main(String[] args) {
 		//int arr[] = { 8, 4, 5, 7, 1, 3, 6, 2 }; //
 
-		//测试快排的执行速度
+		//测试归并的执行速度
 		// 创建要给80000个的随机的数组
 		int[] arr = new int[8000000];
 		for (int i = 0; i < 8000000; i++) {

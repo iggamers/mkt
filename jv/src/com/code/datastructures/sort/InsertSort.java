@@ -28,10 +28,6 @@ public class InsertSort {
 		System.out.println("排序前的时间是=" + date2Str);
 
 		//System.out.println(Arrays.toString(arr));
-
-
-
-
 	}
 
 	//插入排序

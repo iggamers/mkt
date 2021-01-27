@@ -19,11 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="kotlin-&gt;array queue">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/BubbleSort.kt" afterDir="false" />
+    <list default="true" id="2e375b1e-6b44-4dfb-80f0-b89cd05530fa" name="Default Changelist" comment="kotlin-&gt; bubble sort">
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/InsertSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/MergeSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/QuickSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/排序总结.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/MergetSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/jv/src/com/code/datastructures/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/BubbleSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kt/src/com/code/datastructures/sort/BubbleSort.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jv/src/com/code/algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kt/src/com/code/datastructures/sort" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -65,11 +71,12 @@
       <recent name="E:\own\mkt\jv\src\com\code\algorithm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\own\mkt\kt\src\com\code\datastructures\sort" />
       <recent name="E:\own\mkt\jv\src\com\code\algorithm" />
       <recent name="E:\own\mkt\jv\src\com\code\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BubbleSortKt">
+  <component name="RunManager" selected="Kotlin.MergeSortKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,32 +86,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.queue.ArrayQueueKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.stack.ArrayStackKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,14 +116,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D01JFrameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.code.jframe.D01JFrameKt" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.sort.InsertSortKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.sort.MergeSortKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.code.datastructures.sort.QuickSortKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MergeSortKt" />
+        <item itemvalue="Kotlin.QuickSortKt" />
+        <item itemvalue="Kotlin.InsertSortKt" />
         <item itemvalue="Kotlin.BubbleSortKt" />
         <item itemvalue="Kotlin.CircleArrayQueueKt" />
-        <item itemvalue="Kotlin.ArrayQueueKt" />
-        <item itemvalue="Kotlin.ArrayStackKt" />
-        <item itemvalue="Kotlin.D01JFrameKt" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609864732837</updated>
       <workItem from="1609864735219" duration="370000" />
-      <workItem from="1611650020895" duration="68893000" />
+      <workItem from="1611650020895" duration="80508000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构">
       <created>1611651492948</created>
@@ -204,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611716125967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="kotlin-&gt; bubble sort">
+      <created>1611719452255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611719452255</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +241,8 @@
     <MESSAGE value="常用算法" />
     <MESSAGE value="kotlin-&gt;array stack" />
     <MESSAGE value="kotlin-&gt;array queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin-&gt;array queue" />
+    <MESSAGE value="kotlin-&gt; bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="kotlin-&gt; bubble sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1609865105031">
@@ -242,38 +257,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609865103465" />
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1611719030692">
+    <state width="1860" height="373" key="GridCell.Tab.0.bottom" timestamp="1611742399457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611719030692" />
-    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1611719030692">
+    <state width="1860" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611742399457" />
+    <state width="1860" height="373" key="GridCell.Tab.0.center" timestamp="1611742399457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611719030692" />
-    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1611719030692">
+    <state width="1860" height="373" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611742399457" />
+    <state width="1860" height="373" key="GridCell.Tab.0.left" timestamp="1611742399457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611719030692" />
-    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1611719030692">
+    <state width="1860" height="373" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611742399457" />
+    <state width="1860" height="373" key="GridCell.Tab.0.right" timestamp="1611742399457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611719030692" />
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1611717874550">
+    <state width="1860" height="373" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611742399457" />
+    <state width="1877" height="158" key="GridCell.Tab.1.bottom" timestamp="1611731034026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611717874550" />
-    <state width="1877" height="211" key="GridCell.Tab.1.center" timestamp="1611717874550">
+    <state width="1877" height="158" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611731034026" />
+    <state width="1877" height="158" key="GridCell.Tab.1.center" timestamp="1611731034026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611717874550" />
-    <state width="1877" height="211" key="GridCell.Tab.1.left" timestamp="1611717874550">
+    <state width="1877" height="158" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611731034026" />
+    <state width="1877" height="158" key="GridCell.Tab.1.left" timestamp="1611731034025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611717874550" />
-    <state width="1877" height="211" key="GridCell.Tab.1.right" timestamp="1611717874550">
+    <state width="1877" height="158" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611731034025" />
+    <state width="1877" height="158" key="GridCell.Tab.1.right" timestamp="1611731034026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="211" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611717874550" />
+    <state width="1877" height="158" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611731034026" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1611716154897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,10 +305,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="502" y="249" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611712518260" />
-    <state x="1938" y="-1" width="926" height="929" maximized="true" key="dock-window-1" timestamp="1611714328796">
-      <screen x="1920" y="-1" width="1920" height="1040" />
+    <state x="184" y="15" width="926" height="929" maximized="true" key="dock-window-1" timestamp="1611727535875">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1938" y="-1" width="926" height="929" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611714328796" />
+    <state x="184" y="15" width="926" height="929" maximized="true" key="dock-window-1/0.0.1920.1040/1920.-1.1920.1040@0.0.1920.1040" timestamp="1611727535875" />
     <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1611714687207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
