@@ -39,11 +39,12 @@ fun main(){
 
 class StackArray {
     private  var maxSize: Int = 0  // 栈大小
-    private lateinit var stack :Array<Int> // 数组,数组模拟栈，数据就放在该数组上
+    private lateinit var stack :IntArray // 数组,数组模拟栈，数据就放在该数组上
     private  var top: Int = -1 // top表示栈顶,初始化为-1
 
     constructor(maxSize :Int){
         this.maxSize = maxSize
+        stack = IntArray(maxSize)
     }
 
 
@@ -85,7 +86,7 @@ class StackArray {
             println("栈空,没有数据！")
         }
         var i :Int = top
-        while ( i > 0){
+        while ( i >= 0){
             print("${stack[i]} ")
             i--
         }
