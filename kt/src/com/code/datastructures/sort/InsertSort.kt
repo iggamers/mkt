@@ -55,7 +55,7 @@ fun insertSort(arr: IntArray) {
 	}
 }
 
-// 使用逐步推导的方式来讲解，便利理解
+// 使用逐步推导的方式来讲解，便于理解
 fun insertSortEvolutionProcess() {
 	var arr = arrayOf(101, 34, 119, 1).toIntArray()
 	println("排序前：")
