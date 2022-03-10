@@ -1,1 +1,3 @@
 out/*
+routine/.gradle/*
+routine/build/*
