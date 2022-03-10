@@ -10,4 +10,6 @@ fun Any?.toString(): String {
 fun main(arg: Array<String>) {
     var t = null
     println(t.toString())
+    var b : String= "abc"
+    println(b.toString())
 }

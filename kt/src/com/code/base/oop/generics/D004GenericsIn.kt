@@ -23,7 +23,6 @@ fun main(args: Array<String>) {
 
 
 class Human: Consumer<Fruit> {
-
     override fun consume(item: Fruit) {
         println("Consume Fruit")
     }

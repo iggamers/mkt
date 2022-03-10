@@ -37,6 +37,7 @@ fun main(args: Array<String>) {
 fun String.filter(predicate: (Char) -> Boolean): String {
     val sb = StringBuilder()
 
+    //for (index in indices) {
     for (index in 0 until length) {
         val element = get(index)
 

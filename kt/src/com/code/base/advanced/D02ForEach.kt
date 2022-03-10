@@ -15,9 +15,9 @@ fun main(args: Array<String>) {
     var items = listOf<String>("a", "b", "c", "d")
 
     //1.根据函数的定义
-    items.forEach({
-        a -> println(a)
-    })
+    items.forEach { a ->
+        println(a)
+    }
 
     //1.根据函数定义传递
     val print = fun(name: String) {

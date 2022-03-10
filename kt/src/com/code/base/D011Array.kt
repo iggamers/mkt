@@ -1,7 +1,5 @@
 package com.code.base
 
-import com.sun.xml.internal.fastinfoset.util.StringArray
-
 fun main(args: Array<String>) {
     var array : IntArray = intArrayOf(1,2,3,4,5)
 

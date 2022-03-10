@@ -1,4 +1,4 @@
-package com.code.base.collection
+ package com.code.base.collection
 
 fun main(args: Array<String>) {
 	val myMap = hashMapOf("hello" to 1, "world" to 2)
